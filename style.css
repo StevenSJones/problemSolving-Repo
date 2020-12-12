@@ -1,0 +1,16 @@
+td.top {
+    vertical-align: top;
+}
+td.middle {
+    vertical-align: middle;
+}
+td.bottom {
+    vertical-align: bottom;
+}
+
+table {
+    height: 150px;
+    font-family: Florence, cursive;
+    font-weight: bolder;
+    border-color: blue;
+}
