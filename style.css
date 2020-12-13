@@ -1,11 +1,21 @@
-td.top {
+td.topUnderline {
     vertical-align: top;
+    text-decoration: underline;
+    text-decoration-color: red;
 }
-td.middle {
+td.middleLinethrough {
     vertical-align: middle;
+    text-decoration: line-through;
+    text-decoration-color: red;
 }
-td.bottom {
+td.bottomOverline {
     vertical-align: bottom;
+    text-decoration: overline;
+    text-decoration-color: red;
+}
+td:hover {
+    color:red;
+    text-decoration-color: blue
 }
 
 table {
