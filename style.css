@@ -1,26 +1,41 @@
+/* Another value of text-decoration property is blink which makes the text blink, however it is deprecated and most browsers ignore it.
+. */
 td.topUnderline {
-    vertical-align: top;
-    text-decoration: underline;
-    text-decoration-color: red;
+  vertical-align: top;
+  text-decoration: underline;
+  text-decoration-color: red;
 }
 td.middleLinethrough {
-    vertical-align: middle;
-    text-decoration: underline overline line-through;
-    text-decoration-color: red;
+  vertical-align: middle;
+  text-decoration: underline overline line-through;
+  text-decoration-color: red;
 }
 td.bottomOverline {
-    vertical-align: bottom;
-    text-decoration: overline;
-    text-decoration-color: red;
+  vertical-align: bottom;
+  text-decoration: overline;
+  text-decoration-color: red;
 }
 td:hover {
-    color:red;
-    text-decoration-color: blue
+  color: red;
+  text-decoration-color: blue;
 }
 
-table {
-    height: 150px;
-    font-family: Florence, cursive;
-    font-weight: bolder;
-    border-color: blue;
+th.cursiveBolder {
+  height: 10px;
+  color: black;
+  font-family: Florence, cursive;
+  font-weight: bold;
+  border-color: blue;
+}
+
+.tableCursiveBolder {
+  font-family: Florence, cursive;
+  font-weight: bolder;
+}
+
+.tableHeightCursiveBlueBold {
+  height: 150px;
+  font-family: Florence, cursive;
+  font-weight: bold;
+  border-color: blue;
 }
