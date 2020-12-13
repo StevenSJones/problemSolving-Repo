@@ -5,7 +5,7 @@ td.topUnderline {
 }
 td.middleLinethrough {
     vertical-align: middle;
-    text-decoration: line-through;
+    text-decoration: underline overline line-through;
     text-decoration-color: red;
 }
 td.bottomOverline {
