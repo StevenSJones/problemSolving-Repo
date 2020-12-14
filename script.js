@@ -4,6 +4,7 @@
 - Exit Controlled Loops: In this type of loops the test condition is tested or evaluated at the end of loop body. Therefore, the loop body will execute atleast once, irrespective of whether the test condition is true or false. 
 -- do – while loop is exit controlled loop.
 We had to put our most specific match at the top and then filter down our checks to most general. Coding involves much head banging and hair pulling. Sometimes when you think you have it, you are probably correct, and just have a syntax error or need to rearrange something. Let’s wrap it in a function so we can call it and reuse it, following best practices, and see our final solution.*/
+
 // function fizzBuzz(n) {
 //   for (i = 0; i <= n; i++) {
 //     console.log(i);
@@ -21,4 +22,6 @@ function fizzBuzz(n) {
     } else console.log(i);
   };
 }
-fizzBuzz(100);
+fizzBuzz(65);
+
+
