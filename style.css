@@ -1,5 +1,13 @@
 /* Another value of text-decoration property is blink which makes the text blink, however it is deprecated and most browsers ignore it.
 . */
+html {
+    scroll-behavior: smooth;
+  }
+
+  .captionRight{
+      align: right;
+  }
+
 td.topUnderline {
   vertical-align: top;
   text-decoration: underline;
@@ -34,8 +42,20 @@ th.cursiveBolder {
 }
 
 .tableHeightCursiveBlueBold {
-  height: 150px;
+  height: 650px;
   font-family: Florence, cursive;
   font-weight: bold;
   border-color: blue;
 }
+  
+  #section1 {
+    height: 850px;
+  }
+  
+  #section2 {
+    height: 850px;
+  }
+
+  #section3 {
+    height: 850px;
+  }
