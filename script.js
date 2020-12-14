@@ -24,4 +24,22 @@ function fizzBuzz(n) {
 }
 fizzBuzz(65);
 
+// Q - fix the bugs
+function getMessageText() {
+    return $('message').text;
+  }
+  
+  document.body.innerHTML = '<div id="message">The message</div>';
+  console.log(getMessageText());
+
+
+  // Q - fix the bugs
+  function average(a, b) {
+    return a + b / 2;
+  }
+  
+  console.log(average(2, 1));
+  
+  module.exports = average;
+
 
