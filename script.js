@@ -11,35 +11,57 @@ We had to put our most specific match at the top and then filter down our checks
 //   }
 // };
 
-function fizzBuzz(n) {
+// function fizzBuzz(n) {
+//   for (let i = 1; i <= n; i++) {
+//     if (i % 3 == 0 && i % 5 == 0) {
+//       console.log("fizzBuzz");
+//     } else if (i % 3 == 0) {
+//       console.log("Fizz");
+//     } else if (i % 5 == 0) {
+//       console.log("Buzz");
+//     } else console.log(i);
+//   }
+// }
+// fizzBuzz(65);
+
+//for loops structure: INITIALIZE, CONDITION, ITERATE
+/* switch statement: The switch expression is evaluated once.The value of the expression is compared with the values of each case. If there is a match, the associated block of code is executed. If there is no match, the default code block is executed.*/
+function fizzBuzzSwitch(n) {
   for (let i = 1; i <= n; i++) {
-    if (i % 3 == 0 && i % 5 == 0) {
-      console.log("fizzBuzz");
-    } else if (i % 3 == 0) {
-      console.log("Fizz");
-    } else if (i % 5 == 0) {
-      console.log("Buzz");
-    } else console.log(i);
-  };
+    switch (true) {
+      case i % 3 == 0 && i % 5 == 0:
+        console.log("fizzBuzz");
+        break;
+      case i % 3 == 0:
+        console.log("Fizz");
+        break;
+      case i % 5 == 0:
+        console.log("Buzz");
+        break;
+      default:
+        console.log(i);
+        break;
+    }
+  }
 }
-fizzBuzz(65);
+
+fizzBuzzSwitch(65);
+
+
 
 // Q - fix the bugs
-function getMessageText() {
-    return $('message').text;
-  }
-  
-  document.body.innerHTML = '<div id="message">The message</div>';
-  console.log(getMessageText());
+// function getMessageText() {
+//   return $("message").text;
+// }
 
+// document.body.innerHTML = '<div id="message">The message</div>';
+// console.log(getMessageText());
 
-  // Q - fix the bugs
-  function average(a, b) {
-    return a + b / 2;
-  }
-  
-  console.log(average(2, 1));
-  
-  module.exports = average;
+// Q - fix the bugs
+// function average(a, b) {
+//   return a + b / 2;
+// }
 
+// console.log(average(2, 1));
 
+// module.exports = average;
