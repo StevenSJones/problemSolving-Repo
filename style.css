@@ -47,9 +47,9 @@ html {
   text-align: center;
 }
 
-table{
-    border-collapse: separate;
-    empty-cells: hide;
+table {
+  border-collapse: separate;
+  empty-cells: hide;
 }
 
 td.topUnderline {
@@ -97,4 +97,22 @@ th.cursiveBolder {
 
 #section3 {
   height: 850px;
+}
+
+.roundBlack {
+  -webkit-border-radius: 24px;
+  border-radius: 24px;
+  border: 10px double black;
+  padding: 10px;
+}
+
+.roundOrange {
+  -webkit-border-radius: 24px;
+  border-radius: 10px;
+  border: 10px double #ffac4d;
+  padding: 10px;
+}
+
+.marginTop {
+  margin-top: 10px;
 }
