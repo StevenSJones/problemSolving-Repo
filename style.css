@@ -1,12 +1,15 @@
 /* Another value of text-decoration property is blink which makes the text blink, however it is deprecated and most browsers ignore it.
 . */
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
-  .captionRight{
-      align: right;
-  }
+/* 5px – the X-coordinate, 2px – the Y-coordinate, 4px – the blur radius, slategray – the color of the shadow */
+.textShadowAndColor {
+  color: black;
+  text-shadow: 5px 2px 4px slategray;
+  text-align: center;
+}
 
 td.topUnderline {
   vertical-align: top;
@@ -42,15 +45,15 @@ th.cursiveBolder {
   font-family: Florence, cursive;
   font-weight: bold;
 }
-  
-  #section1 {
-    height: 850px;
-  }
-  
-  #section2 {
-    height: 850px;
-  }
 
-  #section3 {
-    height: 850px;
-  }
+#section1 {
+  height: 850px;
+}
+
+#section2 {
+  height: 850px;
+}
+
+#section3 {
+  height: 850px;
+}
