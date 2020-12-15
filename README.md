@@ -39,3 +39,5 @@ This project is not licensed.
 ## TODOS: 
 > fix the bugs.
 > create a function that changes a div display to none from block or vice versa if the number starts with a certain number.
+> Box Shadow: With the box-shadow property, you can attach one or more shadows to an element by specifying values for color, size, blur, and offset.
+> Gradients: CSS3 gradients allow us to set the background color of the element to a gradient. Two types of gradients are available: Linear and Radial.
