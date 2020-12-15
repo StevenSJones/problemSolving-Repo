@@ -51,36 +51,44 @@ fizzBuzzSwitch(65);
 todaysDate = new Date().getDay();
 console.log(todaysDate);
 
-function GatherDateSwitch (todaysDate) {
-    switch (todaysDate){
-        case 0: date = "Sunday";
-        console.log('Today is Sunday!');
-        break;
-        case 1: date = "Monday";
-        console.log('Today is Monday!');
-        break;
-        case 2: date = "Tuesday";
-        console.log('Today is Tuesday!');
-        break;
-        case 3: date = "Wednesday";
-        console.log('Today is Wednesday!');
-        break;
-        case 4: date = "Thursday";
-        console.log('Today is Thursday!');
-        break;
-        case 5: date = "Friday";
-        console.log('Today is Friday!');
-        break;
-        case 6: date = "Saturday";
-        console.log('Today is Saturday!');
-        break;
-    }
+function GatherDateSwitch(todaysDate) {
+  switch (todaysDate) {
+    case 0:
+      date = "Sunday";
+      console.log("Today is Sunday!");
+      break;
+    case 1:
+      date = "Monday";
+      console.log("Today is Monday!");
+      break;
+    case 2:
+      date = "Tuesday";
+      console.log("Today is Tuesday!");
+      break;
+    case 3:
+      date = "Wednesday";
+      console.log("Today is Wednesday!");
+      break;
+    case 4:
+      date = "Thursday";
+      console.log("Today is Thursday!");
+      break;
+    case 5:
+      date = "Friday";
+      console.log("Today is Friday!");
+      break;
+    case 6:
+      date = "Saturday";
+      console.log("Today is Saturday!");
+      break;
+  }
 }
 
 GatherDateSwitch(todaysDate);
 
-
-
+// The Math.random() function is used to return a floating-point pseudo-random number between range [0,1) , 0 (inclusive) and 1 (exclusive).This random number can then be scaled according to the desired range.
+let randomNumber = Math.random() * 10;
+console.log(`Random Number Generated ${randomNumber}`);
 
 // Q - fix the bugs
 // function getMessageText() {

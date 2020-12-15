@@ -38,3 +38,4 @@ This project is not licensed.
 
 ## TODOS: 
 > fix the bugs.
+> create a function that changes a div display to none from block or vice versa if the number starts with a certain number.
