@@ -8,11 +8,11 @@ html {
     z-index: 3;
     position: relative;
     background-color: #dd4848;
-    width: 400px;
+    width: 30%;
     height: 120px;
     color: #FFF;
     margin-top: -40px;
-    margin-left: 400px;
+    margin-left: 55%;
     text-align: center;
 } 
 
@@ -20,11 +20,11 @@ html {
     z-index: 2;
     position: relative;
     background-color: #ffac4d;
-    width: 400px;
+    width: 30%;
     height: 120px;
-    color: #FFF;
+    color: slategray;
     margin-top: -40px;
-    margin-left: 200px;
+    margin-left: 35%;
     text-align: center;
 }
 
@@ -32,9 +32,10 @@ html {
     z-index: 1;
     position: relative;
     background-color: #ffed4d;
-    width: 400px;
+    width: 30%;
     height: 120px;
-    color: #FFF;
+    color: black;
+    margin-left: 15%;
     text-align: center;
 }
 
