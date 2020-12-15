@@ -49,6 +49,7 @@ html {
 
 table{
     border-collapse: separate;
+    empty-cells: hide;
 }
 
 td.topUnderline {
