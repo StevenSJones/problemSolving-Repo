@@ -4,39 +4,40 @@ html {
   scroll-behavior: smooth;
 }
 
+/* The z-index works only on positioned elements (position:absolute, position:relative, or position:fixed). */
 .redZindex {
-    z-index: 3;
-    position: relative;
-    background-color: #dd4848;
-    width: 30%;
-    height: 120px;
-    color: #FFF;
-    margin-top: -40px;
-    margin-left: 55%;
-    text-align: center;
-} 
+  z-index: 3;
+  position: relative;
+  background-color: #dd4848;
+  width: 30%;
+  height: 120px;
+  color: #fff;
+  margin-top: -40px;
+  margin-left: 55%;
+  text-align: center;
+}
 
 .orangeZindex {
-    z-index: 2;
-    position: relative;
-    background-color: #ffac4d;
-    width: 30%;
-    height: 120px;
-    color: slategray;
-    margin-top: -40px;
-    margin-left: 35%;
-    text-align: center;
+  z-index: 2;
+  position: relative;
+  background-color: #ffac4d;
+  width: 30%;
+  height: 120px;
+  color: slategray;
+  margin-top: -40px;
+  margin-left: 35%;
+  text-align: center;
 }
 
 .yellowZindex {
-    z-index: 1;
-    position: relative;
-    background-color: #ffed4d;
-    width: 30%;
-    height: 120px;
-    color: black;
-    margin-left: 15%;
-    text-align: center;
+  z-index: 1;
+  position: relative;
+  background-color: #ffed4d;
+  width: 30%;
+  height: 120px;
+  color: black;
+  margin-left: 15%;
+  text-align: center;
 }
 
 /* 5px – the X-coordinate, 2px – the Y-coordinate, 4px – the blur radius, slategray – the color of the shadow */
