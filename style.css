@@ -55,21 +55,21 @@ table {
 td.topUnderline {
   vertical-align: top;
   text-decoration: underline;
-  text-decoration-color: red;
+  text-decoration-color: #dd4848;
 }
 td.middleLinethrough {
   vertical-align: middle;
   text-decoration: underline overline;
-  text-decoration-color: red;
+  text-decoration-color: #dd4848;
 }
 td.bottomOverline {
   vertical-align: bottom;
   text-decoration: overline;
-  text-decoration-color: red;
+  text-decoration-color: #dd4848;
 }
 td:hover {
-  color: red;
-  text-decoration-color: blue;
+  color: #dd4848;
+  text-decoration-color: #ffed4d;
 }
 
 th.cursiveBolder {
@@ -113,7 +113,7 @@ th.cursiveBolder {
   padding: 10px;
 }
 
-.roundOrange {
+.roundBlack {
   /* webkit prefix for chrome and safari */
   -webkit-border-radius: 24px;
   /* moz prefix for firefox */
@@ -122,11 +122,30 @@ th.cursiveBolder {
   -o-border-radius: 24px;
   /* ms prefix for internet explorer */
   -ms-border-radius: 24px;
-  border-radius: 10px;
-  border: 10px double #ffac4d;
+  border-radius: 24px;
+  border: 10px double black;
+  padding: 10px;
+}
+
+.roundWhite {
+  /* webkit prefix for chrome and safari */
+  -webkit-border-radius: 24px;
+  /* moz prefix for firefox */
+  -moz-border-radius: 24px;
+  /* o prefix for opera */
+  -o-border-radius: 24px;
+  /* ms prefix for internet explorer */
+  -ms-border-radius: 24px;
+  border-radius: 24px;
+  border: 10px double white;
   padding: 10px;
 }
 
 .marginTop {
   margin-top: 10px;
+}
+
+.roundedCorners {
+  -webkit-border-radius: 24px;
+  border-radius: 24px;
 }
