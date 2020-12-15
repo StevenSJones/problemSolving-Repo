@@ -100,14 +100,28 @@ th.cursiveBolder {
 }
 
 .roundBlack {
+  /* webkit prefix for chrome and safari */
   -webkit-border-radius: 24px;
+  /* moz prefix for firefox */
+  -moz-border-radius: 24px;
+  /* o prefix for opera */
+  -o-border-radius: 24px;
+  /* ms prefix for internet explorer */
+  -ms-border-radius: 24px;
   border-radius: 24px;
   border: 10px double black;
   padding: 10px;
 }
 
 .roundOrange {
+  /* webkit prefix for chrome and safari */
   -webkit-border-radius: 24px;
+  /* moz prefix for firefox */
+  -moz-border-radius: 24px;
+  /* o prefix for opera */
+  -o-border-radius: 24px;
+  /* ms prefix for internet explorer */
+  -ms-border-radius: 24px;
   border-radius: 10px;
   border: 10px double #ffac4d;
   padding: 10px;
