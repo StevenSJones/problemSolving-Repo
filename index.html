@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="container-fluid">
+
+    <div class="container-fluid">
       <div class="container-fluid px-3 my-3 border" id="section1">
         <div class="row">
           <a href="#section2">Click Me to Smooth Scroll to Section 2 Below</a>
@@ -22,23 +23,40 @@
         <div class="row">
           <a href="#section3">Click Me to Smooth Scroll to Section 3 Below</a>
         </div>
-        <table class="table-bordered caption-top" border="1" cellpadding="2" cellspacing="10">
-          <thead>
+
+        <button type="button" class="">Click me!</button>
+        
+        <table class="table table-dark table-striped caption-top" border="1" cellpadding="2" cellspacing="10">
+          <thead class="table-dark text-light">
+            <tr>
             <!-- The caption element can only be used once per table and must immediately follow the table start tag. Captions are placed above the table by default. Captions can also be placed below, to the left, or to the right of the table, based on the value of the "align" parameter. -->
             <caption class="tableCursiveBolder">
               Table 1
             </caption>
+            <th class="mx-auto cursiveBolder" scope="col">#</th>
             <th class="mx-auto cursiveBolder" scope="col">TOP</th>
             <th class="mx-auto cursiveBolder" scope="col">MIDDLE</th>
             <th class="mx-auto cursiveBolder" scope="col">BOTTOM</th>
+            </tr>
           </thead>
           <tbody>
-            <tr class="tableHeightCursiveBlueBold" scope="row">
+            <tr class="tableHeightCursiveBold">
+              <th scope="row">1</th>
               <td class="topUnderline">Top</td>
               <td class="middleLinethrough">Middle</td>
               <td class="bottomOverline">Bottom</td>
-              <!-- Q - add bootstrap classes to the button element so that it is styled as a primary bootstrap button  -->
-              <button type="button" class="">Click me!</button>
+            </tr>
+            <tr class="tableHeightCursiveBold">
+              <th scope="row">2</th>
+              <td class="topUnderline">Top</td>
+              <td class="middleLinethrough">Middle</td>
+              <td class="bottomOverline">Bottom</td>
+            </tr>
+            <tr class="tableHeightCursiveBold">
+              <th scope="row">3</th>
+              <td class="topUnderline">Top</td>
+              <td class="middleLinethrough">Middle</td>
+              <td class="bottomOverline">Bottom</td>
             </tr>
           </tbody>
           <tfoot>FOOTER</tfoot>
@@ -55,18 +73,32 @@
         <div class="row">
           <a href="#section3">Click Me to Smooth Scroll to Section 3 Below</a>
         </div>
-        <table class="table-bordered caption-top" border="1" cellpadding="2" cellspacing="10">
+        <table class="table table-dark table-striped caption-top" border="1" cellpadding="2" cellspacing="10">
           <thead>
             <!-- The caption element can only be used once per table and must immediately follow the table start tag. Captions are placed above the table by default. Captions can also be placed below, to the left, or to the right of the table, based on the value of the "align" parameter. -->
             <caption class="tableCursiveBolder">
               Table 2
             </caption>
+            <th class="mx-auto cursiveBolder" scope="col">#</th>
             <th class="mx-auto cursiveBolder" scope="col">TOP</th>
             <th class="mx-auto cursiveBolder" scope="col">MIDDLE</th>
             <th class="mx-auto cursiveBolder" scope="col">BOTTOM</th>
           </thead>
           <tbody>
-            <tr class="tableHeightCursiveBlueBold" scope="row">
+            <tr class="tableCursiveBold">
+              <th scope="row">1</th>
+              <td class="topUnderline">Top</td>
+              <td class="middleLinethrough">Middle</td>
+              <td class="bottomOverline">Bottom</td>
+            </tr>
+            <tr class="tableCursiveBold">
+              <th scope="row">2</th>
+              <td class="topUnderline">Top</td>
+              <td class="middleLinethrough">Middle</td>
+              <td class="bottomOverline">Bottom</td>
+            </tr>
+            <tr class="tableCursiveBold">
+              <th scope="row">3</th>
               <td class="topUnderline">Top</td>
               <td class="middleLinethrough">Middle</td>
               <td class="bottomOverline">Bottom</td>
@@ -84,18 +116,32 @@
         <div class="row">
           <a href="#section2">Click Me to Smooth Scroll to Section 2 Above</a>
         </div>
-        <table class="table-bordered caption-top" border="1" cellpadding="2" cellspacing="10">
+        <table class="table table-dark table-striped caption-top" border="1" cellpadding="2" cellspacing="10">
           <thead>
             <!-- The caption element can only be used once per table and must immediately follow the table start tag. Captions are placed above the table by default. Captions can also be placed below, to the left, or to the right of the table, based on the value of the "align" parameter. -->
             <caption class="text-dark tableCursiveBolder">
               Table 3
             </caption>
+            <th class="mx-auto cursiveBolder" scope="col">#</th>
             <th class="mx-auto cursiveBolder" scope="col">TOP</th>
             <th class="mx-auto cursiveBolder" scope="col">MIDDLE</th>
             <th class="mx-auto cursiveBolder" scope="col">BOTTOM</th>
           </thead>
           <tbody>
-            <tr class="tableHeightCursiveBlueBold" scope="row">
+            <tr class="tableCursiveBold">
+              <th scope="row">1</th>
+              <td class="topUnderline">Top</td>
+              <td class="middleLinethrough">Middle</td>
+              <td class="bottomOverline">Bottom</td>
+            </tr>
+            <tr class="tableCursiveBold">
+              <th scope="row">2</th>
+              <td class="topUnderline">Top</td>
+              <td class="middleLinethrough">Middle</td>
+              <td class="bottomOverline">Bottom</td>
+            </tr>
+            <tr class="tableCursiveBold">
+              <th scope="row">3</th>
               <td class="topUnderline">Top</td>
               <td class="middleLinethrough">Middle</td>
               <td class="bottomOverline">Bottom</td>
@@ -104,7 +150,7 @@
           <tfoot class="text-dark">FOOTER</tfoot>
         </table>
       </div>
-    </main>
+    </div>
 
     <script src="script.js"></script>
     <script

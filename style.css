@@ -15,7 +15,7 @@ td.topUnderline {
 }
 td.middleLinethrough {
   vertical-align: middle;
-  text-decoration: underline overline line-through;
+  text-decoration: underline overline;
   text-decoration-color: red;
 }
 td.bottomOverline {
@@ -29,11 +29,8 @@ td:hover {
 }
 
 th.cursiveBolder {
-  height: 10px;
-  color: black;
   font-family: Florence, cursive;
   font-weight: bold;
-  border-color: blue;
 }
 
 .tableCursiveBolder {
@@ -41,11 +38,9 @@ th.cursiveBolder {
   font-weight: bolder;
 }
 
-.tableHeightCursiveBlueBold {
-  height: 650px;
+.tableCursiveBold {
   font-family: Florence, cursive;
   font-weight: bold;
-  border-color: blue;
 }
   
   #section1 {
