@@ -10,7 +10,7 @@ html {
   position: relative;
   background-color: #dd4848;
   width: 30%;
-  height: 120px;
+  height: 30%;
   color: #fff;
   margin-top: -40px;
   margin-left: 55%;
@@ -22,7 +22,7 @@ html {
   position: relative;
   background-color: #ffac4d;
   width: 30%;
-  height: 120px;
+  height: 30%;
   color: slategray;
   margin-top: -40px;
   margin-left: 35%;
@@ -34,7 +34,7 @@ html {
   position: relative;
   background-color: #ffed4d;
   width: 30%;
-  height: 120px;
+  height: 30%;
   color: black;
   margin-left: 15%;
   text-align: center;
@@ -75,6 +75,7 @@ td:hover {
 th.cursiveBolder {
   font-family: Florence, cursive;
   font-weight: bold;
+  text-align: center;
 }
 
 .tableCursiveBolder {
