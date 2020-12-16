@@ -5,6 +5,8 @@ html {
 }
 
 /* The z-index works only on positioned elements (position:absolute, position:relative, or position:fixed). */
+
+/* The first length for the horizontal offset will cast the shadow to the right of the box (required). The second length is for the vertical offset that will cast the shadow to below the box (required). The color of the shadow (optional) */
 .redZindex {
   z-index: 3;
   position: relative;
@@ -15,6 +17,7 @@ html {
   margin-top: -40px;
   margin-left: 55%;
   text-align: center;
+  box-shadow: 10px 10px #888888;
 }
 
 .orangeZindex {
@@ -27,6 +30,7 @@ html {
   margin-top: -40px;
   margin-left: 35%;
   text-align: center;
+  box-shadow: 10px 10px #888888;
 }
 
 .yellowZindex {
@@ -38,6 +42,7 @@ html {
   color: black;
   margin-left: 15%;
   text-align: center;
+  box-shadow: 10px 10px #888888;
 }
 
 /* 5px – the X-coordinate, 2px – the Y-coordinate, 4px – the blur radius, slategray – the color of the shadow */
