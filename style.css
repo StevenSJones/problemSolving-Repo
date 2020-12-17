@@ -176,3 +176,7 @@ th.cursiveBolder {
   color: white;
   background: linear-gradient(#ffac4d, #dd4848, black);
 }
+
+.blackText {
+    color: black
+}
