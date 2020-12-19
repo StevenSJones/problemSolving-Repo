@@ -106,3 +106,5 @@ console.log(`Random Number Generated ${randomNumber}`);
 // console.log(average(2, 1));
 
 // module.exports = average;
+
+

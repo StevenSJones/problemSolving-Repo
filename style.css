@@ -169,12 +169,12 @@ th.cursiveBolder {
 }
 
 .partialBackground {
-  background: linear-gradient(white, #ffed4d, #ffac4d, white);
+  background: linear-gradient(#ffed4d, #ffac4d 60%);
 }
 
 .partialBackgroundRed {
   color: white;
-  background: linear-gradient(#ffac4d, #dd4848, black);
+  background: linear-gradient(#ffac4d 50%, #dd4848, black);
 }
 
 .blackText {
