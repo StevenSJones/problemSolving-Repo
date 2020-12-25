@@ -114,6 +114,10 @@ th.cursiveBolder {
   font-weight: bold;
 }
 
+.centeredText {
+  text-align: center;
+}
+
 #section1 {
   height: 850px;
 }
@@ -182,4 +186,14 @@ th.cursiveBolder {
 
 .blackText {
   color: black;
+}
+
+#msg {
+  font-size: 35px;
+  font-family: florenece, cursive;
+  font-weight: bolder;
+  /* background: linear-gradient(#ffed4d, #ffac4d, #dd4848);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text; */
 }
