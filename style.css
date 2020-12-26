@@ -197,3 +197,83 @@ th.cursiveBolder {
   background-clip: text;
   -webkit-background-clip: text; */
 }
+
+.circle {
+  height: 6rem;
+  width: 6rem;
+  background-color: white;
+  border-radius: 12rem;
+  display: inline-block;
+}
+
+.yellowStripes {
+  background-image: radial-gradient(circle,
+    #ffed4d 0%,
+    #ffed4d 5%,
+    #FFF1BC 5%,
+    #FFF1BC 20%,
+    #ffed4d 20%,
+    #ffed4d 35%,
+    #FFF1BC 35%,
+    #FFF1BC 50%,
+    #ffed4d 50%,
+    #ffed4d 65%,
+    #FFF1BC 65%,
+    #FFF1BC 80%,
+    #ffed4d 80%,
+    #ffed4d 100%);
+}
+
+.orangeStripes {
+  background-image: radial-gradient(circle,
+    #ffac4d 0%,
+    #ffac4d 5%,
+    #fad7b0 5%,
+    #fad7b0 20%,
+    #ffac4d 20%,
+    #ffac4d 35%,
+    #fad7b0 35%,
+    #fad7b0 50%,
+    #ffac4d 50%,
+    #ffac4d 65%,
+    #fad7b0 65%,
+    #fad7b0 80%,
+    #ffac4d 80%,
+    #ffac4d 100%);
+}
+
+.redStripes {
+  background-image: radial-gradient(circle,
+    #dd4848 0%,
+    #dd4848 5%,
+    #dda4a4 5%,
+    #dda4a4 20%,
+    #dd4848 20%,
+    #dd4848 35%,
+    #dda4a4 35%,
+    #dda4a4 50%,
+    #dd4848 50%,
+    #dd4848 65%,
+    #dda4a4 65%,
+    #dda4a4 80%,
+    #dd4848 80%,
+    #dd4848 100%);
+}
+
+.yellowOrangeRedStripes {
+    background-image: radial-gradient(circle,
+      #dd4848 0%,
+      #dd4848 5%,
+      #ffac4d 5%,
+      #ffac4d 20%,
+      #ffed4d 20%,
+      #ffed4d 35%,
+      #dd4848 35%,
+      #dd4848 50%,
+      #ffac4d 50%,
+      #ffac4d 65%,
+      #ffed4d 65%,
+      #ffed4d 80%,
+      black 80%,
+      black 100%);
+  }
