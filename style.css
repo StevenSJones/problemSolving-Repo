@@ -198,6 +198,7 @@ th.cursiveBolder {
   -webkit-background-clip: text; */
 }
 
+/* code to create a circle */
 .circle {
   height: 6rem;
   width: 6rem;
@@ -206,26 +207,31 @@ th.cursiveBolder {
   display: inline-block;
 }
 
+/* code to create a radial gradient */
 .yellowStripes {
-  background-image: radial-gradient(circle,
+  background-image: radial-gradient(
+    circle,
     #ffed4d 0%,
     #ffed4d 5%,
-    #FFF1BC 5%,
-    #FFF1BC 20%,
+    #fff1bc 5%,
+    #fff1bc 20%,
     #ffed4d 20%,
     #ffed4d 35%,
-    #FFF1BC 35%,
-    #FFF1BC 50%,
+    #fff1bc 35%,
+    #fff1bc 50%,
     #ffed4d 50%,
     #ffed4d 65%,
-    #FFF1BC 65%,
-    #FFF1BC 80%,
+    #fff1bc 65%,
+    #fff1bc 80%,
     #ffed4d 80%,
-    #ffed4d 100%);
+    #ffed4d 100%
+  );
 }
 
+/* code to create a radial gradient */
 .orangeStripes {
-  background-image: radial-gradient(circle,
+  background-image: radial-gradient(
+    circle,
     #ffac4d 0%,
     #ffac4d 5%,
     #fad7b0 5%,
@@ -239,11 +245,14 @@ th.cursiveBolder {
     #fad7b0 65%,
     #fad7b0 80%,
     #ffac4d 80%,
-    #ffac4d 100%);
+    #ffac4d 100%
+  );
 }
 
+/* code to create a radial gradient */
 .redStripes {
-  background-image: radial-gradient(circle,
+  background-image: radial-gradient(
+    circle,
     #dd4848 0%,
     #dd4848 5%,
     #dda4a4 5%,
@@ -257,23 +266,27 @@ th.cursiveBolder {
     #dda4a4 65%,
     #dda4a4 80%,
     #dd4848 80%,
-    #dd4848 100%);
+    #dd4848 100%
+  );
 }
 
+/* code to create a radial gradient */
 .yellowOrangeRedStripes {
-    background-image: radial-gradient(circle,
-      #dd4848 0%,
-      #dd4848 5%,
-      #ffac4d 5%,
-      #ffac4d 20%,
-      #ffed4d 20%,
-      #ffed4d 35%,
-      #dd4848 35%,
-      #dd4848 50%,
-      #ffac4d 50%,
-      #ffac4d 65%,
-      #ffed4d 65%,
-      #ffed4d 80%,
-      black 80%,
-      black 100%);
-  }
+  background-image: radial-gradient(
+    circle,
+    #dd4848 0%,
+    #dd4848 5%,
+    #ffac4d 5%,
+    #ffac4d 20%,
+    #ffed4d 20%,
+    #ffed4d 35%,
+    #dd4848 35%,
+    #dd4848 50%,
+    #ffac4d 50%,
+    #ffac4d 65%,
+    #ffed4d 65%,
+    #ffed4d 80%,
+    black 80%,
+    black 100%
+  );
+}
