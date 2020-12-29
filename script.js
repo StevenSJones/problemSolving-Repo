@@ -47,7 +47,35 @@ function fizzBuzzSwitch(n) {
 
 fizzBuzzSwitch(65);
 //---------------------------------------
+currentHour = new Date().getHours();
 
+function greetingsColor() {
+  for (let i = 0; i < 12; i++) {
+    switch (true) {
+      case new Date().getHours() < 12:
+        $(".demo").text("Good Morning!");
+        $(".card").css("background-color", "white").css("color", "black");
+        break;
+      case new Date().getHours() > 12 && new Date().getHours(n) < 18:
+        $(".demo").text("Good Afternoon!");
+        $(".card").css("background-color", "grey").css("color", "black");
+        break;
+      case new Date().getHours() > 18:
+        $(".demo").text("Good Evening!");
+        $(".card").css("background-color", "black").css("color", "white");
+        break;
+      default:
+        break;
+    }
+  }
+}
+
+$("#currentDay").text(moment().format("dddd, MMMM Do YYYY, h:mm:ss a"));
+
+
+//----------------------------------------
+
+//using the new Date method and its get day method to get todays data and then logging that to the console.
 todaysDate = new Date().getDay();
 console.log(todaysDate);
 
@@ -85,9 +113,9 @@ function GatherDateSwitch(todaysDate) {
 }
 
 //welcome name functionality with a doc,ready function first followed by jQuery for the name and event handler, followed by the action to be taken in the form of a callback function:
-$(function() {
-  $("#name").keyup(function() {
-      $("#msg").html($("#name").val());
+$(function () {
+  $("#name").keyup(function () {
+    $("#msg").html($("#name").val());
   });
 });
 
@@ -115,5 +143,3 @@ console.log(`Random Number Generated ${randomNumber}`);
 // console.log(average(2, 1));
 
 // module.exports = average;
-
-
