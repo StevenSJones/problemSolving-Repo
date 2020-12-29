@@ -43,4 +43,4 @@ This project is not licensed.
 > Radial Gradient on a circle that is created using CSS. √
 > create a function that changes a div display to none from block or vice versa if the number starts with a certain number.
 > use jQuery to handle an input event on key up so that when a name is typed, the name appears on the page after the word Welcome perhaps. FINISH WITH FRED!!
->
+> I need to get a new pic that is much larger so as to not become pixelated as it is strected and I also need to remove the black border that is around each table. perhaps padding bottom?
